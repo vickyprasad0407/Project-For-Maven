@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MasterTestSuite" duration-ms="0" started-at="2023-05-03T23:46:14 IST" finished-at="2023-05-03T23:46:14 IST">
+    <groups>
+    </groups>
+  </suite> <!-- MasterTestSuite -->
+  <suite name="Suite" duration-ms="191" started-at="2023-05-03T23:46:13 IST" finished-at="2023-05-03T23:46:13 IST">
+    <groups>
+      <group name="regression">
+        <method signature="CreateTest.login()[pri:0, instance:com.practicePackage.CreateTest@58c1670b]" name="login" class="com.practicePackage.CreateTest"/>
+        <method signature="Update.logout()[pri:0, instance:com.practicePackage.Update@c46bcd4]" name="logout" class="com.practicePackage.Update"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreateTest.create()[pri:0, instance:com.practicePackage.CreateTest@58c1670b]" name="create" class="com.practicePackage.CreateTest"/>
+        <method signature="DeleteTest.deleteTest()[pri:0, instance:com.practicePackage.DeleteTest@587d1d39]" name="deleteTest" class="com.practicePackage.DeleteTest"/>
+        <method signature="Update.updateTest()[pri:0, instance:com.practicePackage.Update@c46bcd4]" name="updateTest" class="com.practicePackage.Update"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="191" started-at="2023-05-03T23:46:13 IST" finished-at="2023-05-03T23:46:13 IST">
+      <class name="com.practicePackage.DeleteTest">
+        <test-method status="PASS" signature="deleteTest()[pri:0, instance:com.practicePackage.DeleteTest@587d1d39]" name="deleteTest" duration-ms="4" started-at="2023-05-03T23:46:13 IST" finished-at="2023-05-03T23:46:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+      </class> <!-- com.practicePackage.DeleteTest -->
+      <class name="com.practicePackage.Update">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.practicePackage.Update@c46bcd4]" name="logout" duration-ms="4" started-at="2023-05-03T23:46:13 IST" finished-at="2023-05-03T23:46:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="updateTest()[pri:0, instance:com.practicePackage.Update@c46bcd4]" name="updateTest" duration-ms="4" started-at="2023-05-03T23:46:13 IST" finished-at="2023-05-03T23:46:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTest -->
+      </class> <!-- com.practicePackage.Update -->
+      <class name="com.practicePackage.CreateTest">
+        <test-method status="PASS" signature="create()[pri:0, instance:com.practicePackage.CreateTest@58c1670b]" name="create" duration-ms="24" started-at="2023-05-03T23:46:13 IST" finished-at="2023-05-03T23:46:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.practicePackage.CreateTest@58c1670b]" name="login" duration-ms="4" started-at="2023-05-03T23:46:13 IST" finished-at="2023-05-03T23:46:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.practicePackage.CreateTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="34" started-at="2023-05-03T23:46:13 IST" finished-at="2023-05-03T23:46:13 IST">
+    <groups>
+      <group name="regression">
+        <method signature="CreateTest.login()[pri:0, instance:com.practicePackage.CreateTest@3ecd23d9]" name="login" class="com.practicePackage.CreateTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreateTest.create()[pri:0, instance:com.practicePackage.CreateTest@3ecd23d9]" name="create" class="com.practicePackage.CreateTest"/>
+        <method signature="DeleteTest.deleteTest()[pri:0, instance:com.practicePackage.DeleteTest@7cbd213e]" name="deleteTest" class="com.practicePackage.DeleteTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="34" started-at="2023-05-03T23:46:13 IST" finished-at="2023-05-03T23:46:13 IST">
+      <class name="com.practicePackage.DeleteTest">
+        <test-method status="PASS" signature="deleteTest()[pri:0, instance:com.practicePackage.DeleteTest@7cbd213e]" name="deleteTest" duration-ms="4" started-at="2023-05-03T23:46:13 IST" finished-at="2023-05-03T23:46:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+      </class> <!-- com.practicePackage.DeleteTest -->
+      <class name="com.practicePackage.CreateTest">
+        <test-method status="PASS" signature="create()[pri:0, instance:com.practicePackage.CreateTest@3ecd23d9]" name="create" duration-ms="3" started-at="2023-05-03T23:46:13 IST" finished-at="2023-05-03T23:46:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.practicePackage.CreateTest@3ecd23d9]" name="login" duration-ms="4" started-at="2023-05-03T23:46:13 IST" finished-at="2023-05-03T23:46:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.practicePackage.CreateTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
